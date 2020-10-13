@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'ubuntumedium';
+  src: url('fonts/ubuntumedium.woff2') format('woff2'),
+      url('fonts/ubuntumedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #070707;
+  font-family: 'ubuntumedium', serif;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+*, html, body {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
