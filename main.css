@@ -58,7 +58,12 @@ img {
 }
 
 .header__link {
+  padding: 15px 30px;
   font-family: 'ubuntumebold', serif;
   color: #828282;
   text-decoration: none;
+}
+
+.header__item:last-child .header__link{
+  padding-right: 0;
 }
