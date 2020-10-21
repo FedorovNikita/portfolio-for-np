@@ -62,8 +62,13 @@ img {
   font-family: 'ubuntumebold', serif;
   color: #828282;
   text-decoration: none;
+  transition: color ease-in .4s;
 }
 
 .header__item:last-child .header__link{
   padding-right: 0;
+}
+
+.header__link:hover {
+  color: #000000;
 }
