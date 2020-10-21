@@ -39,6 +39,14 @@ img {
 }
 
 /* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
 .header__wrap {
   display: flex;
   justify-content: space-between;
