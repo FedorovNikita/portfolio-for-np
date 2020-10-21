@@ -38,3 +38,27 @@ img {
   padding: 0 20px;
 }
 
+/* header */
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.header__hamburder  {
+  display: none;
+}
+
+.header__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__link {
+  font-family: 'ubuntumebold', serif;
+  color: #828282;
+  text-decoration: none;
+}
