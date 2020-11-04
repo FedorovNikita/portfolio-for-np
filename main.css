@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: 'ubuntumebold';
+  font-family: 'ubuntubold';
   src: url('fonts/ubuntubold.woff2') format('woff2'),
       url('fonts/ubuntubold.woff') format('woff');
   font-weight: normal;
@@ -67,7 +67,7 @@ img {
 
 .header__link {
   padding: 15px 30px;
-  font-family: 'ubuntumebold', serif;
+  font-family: 'ubuntubold', serif;
   color: #828282;
   text-decoration: none;
   transition: color ease-in .4s;
@@ -79,6 +79,39 @@ img {
 
 .header__link:hover {
   color: #000000;
+}
+
+/* primary */
+
+.primary {
+  margin-top: 100px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.primary__info {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.primary__title {
+  max-width: 240px;
+  margin: 0;
+  font-family: 'ubuntubold';
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.primary__text {
+  max-width: 240px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.primary__image-user {
+  background-color: #f6f6f6;
+  text-align: center;
+  line-height: 0;
 }
 
 @media (max-width: 1000px) {
@@ -159,5 +192,29 @@ img {
     top: 25px;
     transform: rotate(-45deg);
     box-shadow: none;
+  }
+
+  /* primary */
+  .primary {
+    padding-top: 0;
+    padding-bottom: 70px;
+  }
+
+  .primary__info {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .primary__title {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+
+  .primary__text {
+    max-width: 190px;
+    padding-top: 0;
+    font-size: 18px;
+    line-height: 21px;
   }
 }
