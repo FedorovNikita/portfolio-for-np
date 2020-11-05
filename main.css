@@ -115,7 +115,44 @@ img {
 }
 
 /* about */
+.about {
+  background-color: #f6f6f6;
+  padding: 90px 0 60px;
+}
 
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'ubuntubold';
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.title::before,
+.title::after {
+  content: '';
+  margin: 0 20px;
+  height: 4px;
+  width: 30px;
+  background-color: #828282;
+}
+
+.about__title {
+  margin-bottom: 50px;
+}
+
+.about__info {
+  padding: 0 80px;
+}
+
+.about__text {
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 @media (max-width: 1000px) {
   .container {
@@ -219,5 +256,29 @@ img {
     padding-top: 0;
     font-size: 18px;
     line-height: 21px;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 41px;
+  }
+
+  .title::before,
+  .title::after {
+    content: none;
+  }
+
+  /* about */
+  .about {
+    padding: 50px 0 20px;
+  }
+
+  .about__text {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .about__info {
+    padding: 0 10px;
   }
 }
