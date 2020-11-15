@@ -154,6 +154,174 @@ img {
   text-align: center;
 }
 
+/* skills */
+.skills {
+  padding: 60px 0 125px;
+  text-align: center;
+}
+
+.skills__title {
+  margin-bottom: 50px;
+}
+
+.skills__text {
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skills__item {
+  align-self: flex-end;
+}
+
+.skill__name {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.star {
+  display: inline-block;
+  width: 22px;
+  height: 20px;
+  margin-right: 9px;
+  background-image: url('./img/star.png');
+}
+
+.star--active {
+  background-image: url('./img/star-active.png');
+}
+
+.star:last-child {
+  margin-right: 0;
+}
+
+/* portfolio */
+.portfolio {
+  padding: 90px 0 70px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.portfolio__title {
+  margin-bottom: 50px;
+}
+
+.portfolio__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.portfolio__item {
+  margin-bottom: 25px;
+}
+
+.portfolio__item:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio__image {
+  margin-bottom: 25px;
+}
+
+.portfolio__link {
+  color: #070707;
+  transition: all linear .4s;
+}
+
+
+.portfolio__link:hover {
+  color: #828282;
+}
+
+/* footer */
+.footer {
+  padding: 90px 0 60px;
+  text-align: center;
+}
+
+.footer__title {
+  margin-bottom: 50px;
+}
+
+.footer__desc {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 43px;
+  font-family: 'ubuntubold';
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.btn:active {
+  background-color: rgba(0, 0, 0, .85);
+}
+
+.footer__btn {
+  margin-bottom: 50px;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__social {
+  margin-bottom: 50px;
+}
+
+.social__item {
+  margin-right: 30px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: block;
+  width: 75px;
+  height: 75px;
+  font-size: 0;
+}
+
+.social__link--vk {
+  background-image: url('./img/vk.png');
+}
+
+.social__link--telega {
+  background-image: url('./img/telegram.png');
+}
+
+.social__link--inst {
+  background-image: url('./img/instagram.png');
+}
+
+.footer__text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+}
+
 @media (max-width: 1000px) {
   .container {
     width: 100%;
@@ -280,5 +448,77 @@ img {
 
   .about__info {
     padding: 0 10px;
+  }
+
+  /* skills */
+  .skills {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .skills__title {
+      margin-bottom: 30px;
+  }
+
+  .slills__text {
+      margin-bottom: 50px;
+  }
+
+  .skills__list {
+      flex-direction: column;
+  }
+
+  .skills__item {
+      align-self: auto;
+      margin-bottom: 60px;
+  }
+
+  .skills__item:last-child {
+      margin-bottom: 0;
+  }
+
+  .skill__name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  /* portfolio */
+  .portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .portfolio__title {
+      margin-bottom: 25px;
+  }
+  
+  .portfolio__item {
+    margin-bottom: 30px;
+  }
+
+  .portfolio__image {
+    margin-bottom: 30px;
+  }
+
+  .portfolio__link {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  /* footer */
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .footer__title {
+      margin-bottom: 30px;
+  }
+
+  .btn {
+      font-size: 24px;
+      line-height: 28px;
   }
 }
