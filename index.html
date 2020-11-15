@@ -7,25 +7,25 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header scroll">
     <div class="container header__wrap">
       <img src="img/logo.png" alt="Логотип Портфолио" class="header__logo-img">
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
-            <a href="" class="header__link">Домой</a>
+            <a href="#primary" class="header__link">Домой</a>
           </li>
           <li class="header__item">
-            <a href="" class="header__link">Обо мне</a>
+            <a href="#about" class="header__link">Обо мне</a>
           </li>
           <li class="header__item">
-            <a href="" class="header__link">Навыки</a>
+            <a href="#skills" class="header__link">Навыки</a>
           </li>
           <li class="header__item">
-            <a href="" class="header__link">Портфолио</a>
+            <a href="#portfolio" class="header__link">Портфолио</a>
           </li>
           <li class="header__item">
-            <a href="" class="header__link">Контакты</a>
+            <a href="#contacts" class="header__link">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -33,7 +33,7 @@
     </div>
   </header>
 
-  <section class="primary">
+  <section class="primary" id="primary">
     <div class="container">
       <div class="primary__info">
         <h1 class="primary__title">Семен Петров</h1>
@@ -48,7 +48,7 @@
     </div>
   </section>
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
       <h2 class="about__title title">Обо мне</h2>
       <div class="about__info">
@@ -59,7 +59,7 @@
     </div>
   </section>
 
-  <section class="skills">
+  <section class="skills" id="skills">
     <div class="container">
       <h2 class="title skills__title">Навыки</h2>
       <p class="skills__text">используемые технологии:</p>
@@ -112,7 +112,7 @@
     </div>
   </section>
 
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <div class="container">
       <h2 class="title portfolio__title">Портфолио</h2>
       <ul class="portfolio__list">
@@ -147,6 +147,13 @@
       <p class="footer__text">Мои аккаунты в Vk, Telegram,<br> Instagram</p>
     </div>
   </footer>
+
+  <div class="modal">
+    <div class="modal__wrap">
+      <h2 class="modal__title">Оставьте заявку! Я позвоню вам в ближайшее время</h2>
+      <button class="modal__close-btn">Закрыть модальное окно</button>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>

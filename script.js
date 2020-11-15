@@ -24,3 +24,5 @@ footerModal.addEventListener('click', (e) => {
 footerModalClose.addEventListener('click', () => {
   footerModal.classList.remove('modal--active');
 })
+
+
